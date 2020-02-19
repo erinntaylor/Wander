@@ -1,0 +1,523 @@
+
+/*NAVIGATION*/
+
+header {
+  background-color: #B78957;
+}
+
+header a {
+  color: #fff;
+}
+
+header .menu-link {
+  text-align: right;
+  line-height: 1;
+  text-decoration: none;
+  display: block;
+  padding: .7rem 1rem;
+  color: #fff;
+}
+
+header .menu a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .05rem;
+}
+
+header .menu a:hover {
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  color:white;
+}
+
+header .logo {
+  line-height: 1;
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+}
+
+.logo img {
+  height: 2.5rem;
+}
+
+header .menu-link {
+font-size: 2rem;
+color: white;
+}
+
+.reveal {
+  background-color: #212121;
+}
+
+.reveal .grid-x {
+  height: 100vh;
+}
+
+.reveal .menu a {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+
+
+
+
+/* WELCOME */
+
+.welcome {
+  background-color: #F4F3F2;
+  padding: 2rem;
+}
+
+.welcome h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+}
+
+.welcome p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+
+
+
+
+@media screen and (min-width:40em) {
+
+  .welcome {
+
+    text-align: center;
+
+    }
+
+}
+
+
+@media screen and (min-width:64em) {
+
+  .welcome p {
+
+    padding-left: 15rem;
+    padding-right: 15rem;
+
+    }
+
+}
+
+
+
+/*ICONS/SMALL LIST*/
+
+
+.small {
+  padding:0 2rem; 
+  background-color: #F4F3F2;
+}
+
+.small img {
+    border-radius: 10px;
+
+}
+
+.small h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    margin-top: .75rem;
+    font-weight: 600;
+}
+
+
+.small .dine a:hover {
+  color:#B78957;
+}
+
+
+
+
+
+/*ROSEWOOD FAVORITES WELCOME*/
+
+
+.special {
+  padding: 2rem;
+  background-color: #F4F3F2;
+}
+.special .cell {
+  margin-bottom: 1rem;
+}
+
+.favorites {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.favorites img {
+}
+
+.favorites div {
+  position: absolute;
+  right: 0px;
+  bottom:0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.3);
+}
+
+.favorites h3 {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+
+}
+
+
+
+/*WINTER IN NEWPORT WELCOME*/
+
+
+.winter {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.winter div {
+  position: absolute;
+  right: 0px;
+  bottom:0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.4);
+
+}
+
+.winter h3 {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+
+}
+
+
+
+
+
+/*PAGE 2 OPTIONS LIST*/
+
+.restaurant img {
+  border-radius: 8px;
+}
+
+.restaurant-one {
+  background-color: #F4F3F2;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+
+}
+
+.restaurant-one h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+
+}
+
+.restaurant-one p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9rem;
+  line-height: 1.4rem;
+
+}
+
+.restaurant-one .cell {
+  margin-bottom: .75rem;
+}
+
+.restaurant-one .option {
+  color:black;
+}
+
+.restaurant-one .option:hover {
+color:#B78957;
+}
+
+
+
+
+.choice ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+.choice li {
+display: inline-block;
+}
+
+.choice li a {
+  font-family: 'Playfair Display', serif;
+  font-size: .8rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  background-color: #B78957;
+  padding: .3rem .8rem;
+  letter-spacing: .1rem;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/*PAGE 3 DETAILS*/
+
+
+/*RESTAURANTS*/
+
+
+.specific {
+  padding: 3rem 10rem 40rem 0;
+  background: url(../img/botanical-restaurant.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.ascent {
+  padding: 3rem 10rem 40rem 0;
+  background: url(../img/ascent.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.cafe75 {
+  padding: 3rem 10rem 40rem 0;
+  background: url(../img/cafe75.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+
+
+/*SHOPS*/
+
+.antiques {
+  padding: 3rem 10rem 40rem 0;
+  background: url(../img/antiques.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.mercantile {
+  padding: 3rem 10rem 40rem 0;
+  background: url(../img/mercantile.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.boutique {
+  padding: 3rem 10rem 40rem 0;
+  background: url(../img/boutique.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+
+/*EXPLORE*/
+
+.mansions {
+  padding: 3rem 10rem 40rem 0;
+  background: url(../img/mansions.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.cliffwalk {
+  padding: 3rem 10rem 40rem 0;
+  background: url(../img/cliffwalk.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.vineyard {
+  padding: 3rem 10rem 40rem 0;
+  background: url(../img/vineyard.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+
+
+
+/*WINTER*/
+
+
+.christmas-mansions {
+  padding: 3rem 10rem 40rem 0;
+  background: url(../img/winter-01.png);
+  background-size: cover;
+  position: relative;
+}
+
+.iceskating {
+  padding: 3rem 10rem 40rem 0;
+  background: url(../img/iceskating.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.festival {
+  padding: 3rem 10rem 40rem 0;
+  background: url(../img/festival.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.request {
+  padding: 3rem 10rem 40rem 0;
+  background: url(../img/car.png);
+  background-size: cover;
+  position: relative;
+}
+
+
+
+
+
+/*BREADCRUMBS*/
+
+.breadcrumbs .back a {
+  color:white;
+  padding-left: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  font-size: 1rem;
+
+}
+
+.breadcrumbs .back-to-main a {
+  color: #B78957;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  font-size: .85rem;
+
+}
+
+
+
+
+
+
+
+/*DETAIL PAGE*/
+
+
+.specific-rest {
+  position: absolute;
+  left: 0;
+  bottom: 5rem;
+  width:80%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0 10px 10px 0;
+}
+
+
+@media screen and (min-width:40em) {
+
+  .specific-rest {
+
+    width:50%;
+
+    }
+
+}
+
+
+@media screen and (min-width:64em) {
+
+  .specific-rest {
+
+    width:40%;
+
+    }
+
+}
+
+
+
+.specific .text {
+  background-color: white;
+    border-radius: 10px;
+}
+
+.text {
+  padding: 3rem;
+
+  }
+
+
+.specific-rest h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.75rem;
+}
+
+.specific-rest p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .95rem;  
+
+}
+
+
+
+
+
+/*FOOTER*/
+
+
+footer {
+  background-color: #B78957;
+}
+
+footer p, h1 {
+  color: white;
+}
+
+footer p {
+  font-family: 'Playfair Display', serif;
+  font-size: .9rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+footer h1 {
+  font-size: .75rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+footer ul {
+  text-align: center;
+  color: white;
+}
+
+
